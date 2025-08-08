@@ -15,8 +15,8 @@ const Header = () => {
 
   const navItems = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
+    { name: "About", href: "#about" },
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ];
@@ -27,7 +27,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="PetrolinX Logo" className="h-20 w-20" />
+            <img src={logo} alt="PetrolinX Logo" className="h-24 w-28" />
           </div>
 
           {/* Desktop Navigation */}

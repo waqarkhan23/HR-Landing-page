@@ -22,8 +22,8 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      value: "123 Business District",
-      description: "New York, NY 10001",
+      value: "PO BOX 459",
+      description: "Katy TX, 77492",
     },
     {
       icon: Clock,
