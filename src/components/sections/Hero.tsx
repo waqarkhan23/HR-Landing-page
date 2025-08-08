@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import logo from "@/assets/logo.png";
 const Hero = () => {
   return (
     <section
@@ -53,13 +53,21 @@ const Hero = () => {
           </div>
 
           <div className="relative">
-            <div className="bg-gradient-to-br from-orange-100 to-yellow-100 rounded-3xl p-8 shadow-2xl">
-              <img
-                src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="HR Consulting Team"
-                className="w-full h-96 object-cover rounded-2xl"
-              />
+            <div className="card w-full h-96">
+              <div className="card-inner">
+                <div className="card-front">
+                  <img
+                    src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    alt="HR Consulting Team"
+                    className="w-full h-96 object-cover rounded-2xl"
+                  />
+                </div>
+                <div className="card-back">
+                  <img src={logo} alt="PetrolinX Logo" className="h-72 w-72" />
+                </div>
+              </div>
             </div>
+
             {/* Floating Elements */}
             <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full opacity-80 animate-pulse"></div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-br from-orange-400 to-yellow-500 rounded-full opacity-60 animate-pulse delay-1000"></div>

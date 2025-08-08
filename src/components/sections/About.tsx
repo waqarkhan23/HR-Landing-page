@@ -7,6 +7,7 @@ const About = () => {
     "Expertise in cutting-edge HR technologies",
     "Personalized solutions tailored to your business",
     "Proven track record of improving workforce performance",
+    "Strong experience with California and European Union law in a global regulatory environment",
     "Commitment to long-term client success",
   ];
 
@@ -43,7 +44,7 @@ const About = () => {
                 Who We Are
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                At PetrolinX, we are committed to redefining human resource
+                At Petrolinx, we are committed to redefining human resource
                 management by providing strategic, data-driven solutions that
                 align with business goals. With years of experience in HR
                 consulting, we help organizations optimize their workforce,
